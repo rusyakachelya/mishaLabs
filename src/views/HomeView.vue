@@ -18,7 +18,7 @@
                 </div> 
             </ul>   
           </nav>
-          <p>@Всі права застережено.Виконав </p>                      
+          <p >@Всі права застережено.Виконав </p>                      
         </div>
     </div>    
 
@@ -35,3 +35,28 @@ export default {
   }
 }
 </script>
+
+
+<style scoped>
+  .home__page-title{
+    font-family: 'Poor Story', cursive;
+  }
+  .home__page-subtitle{
+      font-family: 'Montserrat', sans-serif;
+  }
+  .home__page-list{
+    font-family: 'Josefin Sans', sans-serif;
+   font-style: italic;
+  }
+  .container{
+    border-radius: 10px;
+  }
+  a{
+    font-size: 20px;
+    color: rgb(0, 140, 255);
+  }
+  p{
+    font-family: 'Source Code Pro', monospace;
+  }
+ 
+</style>

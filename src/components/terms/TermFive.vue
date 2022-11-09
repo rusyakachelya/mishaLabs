@@ -6,18 +6,18 @@
           <h3 class="home__page-subtitle">Термінологія</h3>
           <ul class="home__page-list">
                  
-                  <router-link class="f1" to="/terms-1">Term1/</router-link>
-                  <router-link class="f1" to="/terms-2">Term2/</router-link>
-                  <router-link class="f1" to="/terms-3">Term3/</router-link>
-                  <router-link class="f4" to="/terms-4">Term4/</router-link>
-                   <li>Term5/</li>
-                  <router-link class="f4" to="/terms-6">Term6/</router-link>
+                  <router-link class="f1" to="/terms-1">Термін 1/</router-link>
+                  <router-link class="f1" to="/terms-2">Термін 2/</router-link>
+                  <router-link class="f1" to="/terms-3">Термін 3/</router-link>
+                  <router-link class="f4" to="/terms-4">Термін 4/</router-link>
+                   <li class="disabled">Термін 5/</li>
+                  <router-link class="f4" to="/terms-6">Термін 6/</router-link>
           </ul> 
           <div class="about-term">
                 <img class="term-img" src="https://mariajemaria.net/sites/default/files/odd-even.png" alt="">
                 <div class="term-info">
                     <h2 class="term-title">Клас</h2>
-                    <p class="term-text">елемент програмного коду, що дозволяє призначати різний набір властивостей од­ним і тим же фізичним об'єктам програми.    </p>
+                    <p class="term-text">Елемент програмного коду, що дозволяє призначати різний набір властивостей од­ним і тим же фізичним об'єктам програми.    </p>
                     <p class="term-link">Див також <a class="term-link" href="https://developer.mozilla.org/ru/docs/Web/CSS/Class_selectors">посилання на сайт</a> </p>
                 </div>
 
@@ -51,9 +51,10 @@ export default {
     display: flex;
     flex-direction: column;
     width: 600px;
-    height: 600px;
+    height: 620px;
     text-align: center;
     border: 1px solid black;
+    border-radius: 15px;
   }
   li{
    list-style-type: none;
@@ -80,6 +81,19 @@ export default {
   }
   a{
     color: darkblue;
+  }
+
+  .home__page-title{
+     font-family: 'Poor Story', cursive;
+  }
+  .term-title{
+     font-family: 'Montserrat', sans-serif;
+  }
+  .term-text{
+    font-family: 'Source Code Pro', monospace;
+  }
+  .disabled{
+    font-size: 19px;
   }
  
 </style>
