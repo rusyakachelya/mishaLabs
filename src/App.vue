@@ -38,8 +38,8 @@
   .container{
     display: flex;
     flex-direction: column;
-    width: 600px;
-  
+    width: 700px;
+    height: 500px;
     text-align: center;
     border: 1px solid black;
   }
@@ -62,18 +62,18 @@
     flex-direction: column;
   }
   .f1{
-    margin-bottom: 10px;
+    margin-bottom: 28px;
   }
   .from4-to6{
     display: flex;
     flex-direction: column;
   }
 .f4{
-  margin-bottom: 10px;
+  margin-bottom: 28px;
 }
   p{
     align-self: self-start;
-    margin-top: 50px;
+    margin-top: 140px;
     margin-left: 20px;
   }
 

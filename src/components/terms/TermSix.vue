@@ -14,11 +14,11 @@
                   <li class="disabled">Термін 6/</li>
           </ul> 
           <div class="about-term">
-                <img class="term-img" src="https://kovelpost.com/uploads/images/3/99/3997e75b757d5cd5b9f59858784cb6d5/images.jpg" alt="">
+                <img class="term-img" src="https://id-legalgroup.com/upload/images/id_569/5%20(1).jpg" alt="">
                 <div class="term-info">
-                    <h2 class="term-title">Мережевий вузол</h2>
-                    <p class="term-text">Підключений до мережі комп'ютер, що об'єднує локальні мережі, які використову­ють спільний мережевий протокол</p>
-                    <p class="term-link">Див також <a class="term-link" href="https://uk.wikipedia.org/wiki/%D0%92%D1%83%D0%B7%D0%BE%D0%BB_(%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)">посилання на сайт</a> </p>
+                    <h2 class="term-title">Конфіденційність інформації</h2>
+                    <p class="term-text">властивість інформації, яка полягає в тому, що інформація не може бути отримана користувачем, який не має певних повноважень.</p>
+                    <p class="term-link">Див також <a class="term-link" href="https://wiki.legalaid.gov.ua/index.php/%D0%9A%D0%BE%D0%BD%D1%84%D1%96%D0%B4%D0%B5%D0%BD%D1%86%D1%96%D0%B9%D0%BD%D0%B0_%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%8F">посилання на сайт</a> </p>
                 </div>
 
             </div>  
@@ -50,8 +50,8 @@ export default {
   .container{
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 620px;
+    width: 700px;
+     height: 700px;
     text-align: center;
     border: 1px solid black;
     border-radius: 15px;
@@ -68,8 +68,9 @@ export default {
     margin-left: 20px;  
   }
   .term-img{
-    width: 150px;
-    height: 150px;
+     width: 200px;
+    height: 200px;
+    border-radius: 5px;
     align-self: center;
    
   }
@@ -85,13 +86,13 @@ export default {
   }
 
   .home__page-title{
-     font-family: 'Poor Story', cursive;
+    font-family: 'Lobster', cursive;
   }
   .term-title{
      font-family: 'Montserrat', sans-serif;
   }
   .term-text{
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Marck Script', cursive;
   }
   .disabled{
     font-size: 19px;

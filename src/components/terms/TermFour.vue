@@ -13,11 +13,11 @@
                   <router-link class="f4" to="/terms-6">Термін 6/</router-link>
           </ul> 
           <div class="about-term">
-                <img class="term-img" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Client-server-model.svg" alt="">
+                <img class="term-img" src="https://psm7.com/wp-content/uploads/2020/04/ecp.jpg" alt="">
                 <div class="term-info">
-                    <h2 class="term-title">Клієнт-сервер, клієнт</h2>
-                    <p class="term-text">Механізм передачі інформації між віддале­ним комп'ютером, що надає свої ресурси в розпорядження користувачів, і призначеним для користувача комп'ютером, що експлуа- тує ці ресурси</p>
-                    <p class="term-link">Див також <a class="term-link" href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BB%D1%96%D1%94%D0%BD%D1%82-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BD%D0%B0_%D0%B0%D1%80%D1%85%D1%96%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0">посилання на сайт</a> </p>
+                    <h2 class="term-title">Електронний цифровий підпис</h2>
+                    <p class="term-text">вид електронного підпису, отриманого за результатом криптографічного перетворення набору електронних даних, який додається до цього набору або логічно з ним поєднується і дає змогу підтвердити його цілісність та ідентифікувати підписувача.</p>
+                    <p class="term-link">Див також <a class="term-link" href="https://uk.wikipedia.org/wiki/%D0%95%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D0%B9_%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BF%D1%96%D0%B4%D0%BF%D0%B8%D1%81">посилання на сайт</a> </p>
                 </div>
 
             </div>  
@@ -49,8 +49,8 @@ export default {
   .container{
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 620px;
+    width: 700px;
+     height: 700px;
     text-align: center;
     border: 1px solid black;
     border-radius: 15px;
@@ -63,12 +63,13 @@ export default {
   }
   p{
     align-self: self-start;
-    margin-top: 50px;
+    margin-top: 47px;
     margin-left: 20px;  
   }
   .term-img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
     align-self: center;
   }
   .about-term{
@@ -83,13 +84,13 @@ export default {
   }
 
   .home__page-title{
-     font-family: 'Poor Story', cursive;
+    font-family: 'Lobster', cursive;
   }
   .term-title{
      font-family: 'Montserrat', sans-serif;
   }
   .term-text{
-    font-family: 'Source Code Pro', monospace;
+   font-family: 'Marck Script', cursive;
   }
   .disabled{
     font-size: 19px;

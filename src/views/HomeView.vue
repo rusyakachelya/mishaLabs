@@ -7,14 +7,14 @@
           <nav>
              <ul class="home__page-list">
                 <div class="from1-to3">
-                  <router-link class="f1" to="/terms-1">Term1</router-link>
-                  <router-link class="f1" to="/terms-2">Term2</router-link>
-                  <router-link class="f1" to="/terms-3">Term3</router-link>
+                  <router-link class="f1" to="/terms-1">Термін 1</router-link>
+                  <router-link class="f1" to="/terms-2">Термін 2</router-link>
+                  <router-link class="f1" to="/terms-3">Термін 3</router-link>
                 </div>
                 <div class="from4-to6">
-                  <router-link class="f4" to="/terms-4">Term4</router-link>
-                  <router-link class="f4" to="/terms-5">Term5</router-link>
-                  <router-link class="f4" to="/terms-6">Term6</router-link>
+                  <router-link class="f4" to="/terms-4">Термін 4</router-link>
+                  <router-link class="f4" to="/terms-5">Термін 5</router-link>
+                  <router-link class="f4" to="/terms-6">Термін 6</router-link>
                 </div> 
             </ul>   
           </nav>
@@ -39,10 +39,11 @@ export default {
 
 <style scoped>
   .home__page-title{
-    font-family: 'Poor Story', cursive;
+    font-family: 'Roboto Slab', serif;
   }
   .home__page-subtitle{
       font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
   }
   .home__page-list{
     font-family: 'Josefin Sans', sans-serif;
@@ -53,10 +54,11 @@ export default {
   }
   a{
     font-size: 20px;
-    color: rgb(0, 140, 255);
+    color: rgb(172 135 245);
   }
   p{
     font-family: 'Source Code Pro', monospace;
   }
+  
  
 </style>

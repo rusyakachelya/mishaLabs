@@ -14,11 +14,11 @@
                   <router-link class="f4" to="/terms-6">Термін 6/</router-link>
           </ul> 
           <div class="about-term">
-                <img class="term-img" src="https://apelsin.net/assets/img/browser2.jpg" alt="">
+                <img class="term-img" src="https://root-nation.com/wp-content/uploads/2020/05/factor-authentication-2-1.jpg" alt="">
                 <div class="term-info">
-                    <h2 class="term-title">Браузер</h2>
-                    <p class="term-text">Cпеціальна клієнтська програма, призначе­на для перегляду вмісту web-вузлів і відо­браження документів HTML. У браузер вбу­дований транслятор мови розмітки гіпер-тексту, що компілює html-код в процесі від­криття web-сторінки    </p>
-                    <p class="term-link">Див також <a class="term-link" href="https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80">посилання на сайт</a> </p>
+                    <h2 class="term-title">Автентифікація</h2>
+                    <p class="term-text" >процедура перевірки відповідності пред'явленого ідентифікатора об'єкта обчислювальної системи на предмет належності цьому об'єкту; встановлення або підтвердження автентичності.</p>
+                    <p class="term-link">Див також <a class="term-link" href="https://uk.wikipedia.org/wiki/%D0%90%D0%B2%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%8F">посилання на сайт</a> </p>
                 </div>
 
             </div>  
@@ -50,8 +50,8 @@ export default {
   .container{
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 620px;
+    width: 700px;
+    height: 700px;
     text-align: center;
     border: 1px solid black;
     border-radius: 15px;
@@ -68,10 +68,10 @@ export default {
     margin-left: 20px;  
   }
   .term-img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
     align-self: center;
-     border-radius: 5px;
   }
   .about-term{
     display: flex;
@@ -85,13 +85,13 @@ export default {
   }
 
   .home__page-title{
-     font-family: 'Poor Story', cursive;
+    font-family: 'Lobster', cursive;
   }
   .term-title{
      font-family: 'Montserrat', sans-serif;
   }
   .term-text{
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Marck Script', cursive;
   }
   .disabled{
     font-size: 19px;

@@ -14,11 +14,11 @@
                   <router-link class="f4" to="/terms-6">Термін 6/</router-link>
           </ul> 
           <div class="about-term">
-                <img class="term-img" src="https://mariajemaria.net/sites/default/files/odd-even.png" alt="">
+                <img class="term-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Computer-science-education.jpg/274px-Computer-science-education.jpg" alt="">
                 <div class="term-info">
-                    <h2 class="term-title">Клас</h2>
-                    <p class="term-text">Елемент програмного коду, що дозволяє призначати різний набір властивостей од­ним і тим же фізичним об'єктам програми.    </p>
-                    <p class="term-link">Див також <a class="term-link" href="https://developer.mozilla.org/ru/docs/Web/CSS/Class_selectors">посилання на сайт</a> </p>
+                    <h2 class="term-title">Інформатика</h2>
+                    <p class="term-text">наука, що вивчає властивості інформації, питання її збирання, зберігання, пошуку, опрацювання, перетворення, поширення і використання у різних сферах діяльності людини.</p>
+                    <p class="term-link">Див також <a class="term-link" href="https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0">посилання на сайт</a> </p>
                 </div>
 
             </div>  
@@ -50,8 +50,8 @@ export default {
   .container{
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 620px;
+    width: 700px;
+     height: 700px;
     text-align: center;
     border: 1px solid black;
     border-radius: 15px;
@@ -68,8 +68,9 @@ export default {
     margin-left: 20px;  
   }
   .term-img{
-    width: 150px;
-    height: 150px;
+     width: 200px;
+    height: 200px;
+    border-radius: 5px;
     align-self: center;
   }
   .about-term{
@@ -84,13 +85,13 @@ export default {
   }
 
   .home__page-title{
-     font-family: 'Poor Story', cursive;
+   font-family: 'Lobster', cursive;
   }
   .term-title{
      font-family: 'Montserrat', sans-serif;
   }
   .term-text{
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Marck Script', cursive;
   }
   .disabled{
     font-size: 19px;

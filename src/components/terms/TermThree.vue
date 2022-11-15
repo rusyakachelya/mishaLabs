@@ -14,11 +14,11 @@
                   <router-link class="f4" to="/terms-6">Термін 6/</router-link>
           </ul> 
           <div class="about-term">
-                <img class="term-img" src="https://geek-nose.com/wp-content/uploads/2019/02/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-2.jpg" alt="">
+                <img class="term-img" src="https://ubkmarkets.info/sites/default/files/articles/19_indetification/ind_1.png" alt="">
                 <div class="term-info">
-                    <h2 class="term-title">Операційна систе­ма (ОС)	</h2>
-                    <p class="term-text">Комплекс програм, що постійно знаходять­ся в пам'яті; організовує управління при­строями і взаємодію з користувачем </p>
-                    <p class="term-link">Див також <a class="term-link" href="https://uk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%B8%D1%85_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC">посилання на сайт</a> </p>
+                    <h2 class="term-title">Ідентифікація</h2>
+                    <p class="term-text">Процедура присвоєння ідентифікатора об'єкту чи користувачу комп'ютерної системи або встановлення відповідності між об'єктом і його ідентифікатором; упізнання.</p>
+                    <p class="term-link">Див також <a class="term-link" href="https://uk.wikipedia.org/wiki/%D0%86%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%8F">посилання на сайт</a> </p>
                 </div>
 
             </div>  
@@ -50,8 +50,8 @@ export default {
   .container{
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 620px;
+    width: 700px;
+    height: 700px;  
     text-align: center;
     border: 1px solid black;
     border-radius: 15px;
@@ -68,8 +68,9 @@ export default {
     margin-left: 20px;  
   }
   .term-img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
     align-self: center;
   }
   .about-term{
@@ -84,13 +85,13 @@ export default {
   }
 
   .home__page-title{
-     font-family: 'Poor Story', cursive;
+    font-family: 'Lobster', cursive;
   }
   .term-title{
      font-family: 'Montserrat', sans-serif;
   }
   .term-text{
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Marck Script', cursive;
   }
   .disabled{
     font-size: 19px;
